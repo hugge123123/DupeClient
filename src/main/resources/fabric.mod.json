@@ -3,17 +3,15 @@
   "id": "dupeclient",
   "version": "${version}",
   "name": "DupeClient",
-  "description": "A safe, single-player-focused testing utility starter for Minecraft 1.21.11.",
-  "authors": ["hugge123123"],
+  "description": "A safe client utility and duplication-testing menu for permitted worlds.",
+  "authors": ["DupeClient"],
   "environment": "client",
   "entrypoints": {
-    "client": [
-      "dev.hugge123123.dupeclient.DupeClient"
-    ]
+    "client": ["com.dupeclient.DupeClient"]
   },
   "depends": {
     "fabricloader": ">=0.18.1",
-    "minecraft": "1.21.11",
+    "minecraft": "~1.21.11",
     "java": ">=21",
     "fabric-api": "*"
   }
